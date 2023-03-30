@@ -11,10 +11,10 @@ on:
 
 permissions:
   contents: read
+  pull-requests: write
 
 jobs:
   build:
-    pull-requests: write
     runs-on: ubuntu-latest
 
     steps:
